@@ -1,0 +1,209 @@
+.Header {
+  position: fixed;
+  top: 0; /* Stick it to the top */
+  max-height: 92px;
+  width: 100vw;
+
+  display: grid;
+  grid-template-areas: "logo nav";
+  z-index: 1000;
+  /* Cosmetics */
+  background-color: #ffffff;
+}
+
+.thecareersadsLogo {
+  grid-area: logo;
+  height: 83px;
+  background-color: #282c34;
+  margin-left: 15%;
+  padding: 10px 14px;
+  display: inline-block;
+  margin-top: 2%;
+  border: 0;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  font-weight: bold;
+}
+.Nav {
+  display: grid;
+  grid-area: nav;
+  grid-template-columns: repeat(10, auto);
+  align-items: center;
+  justify-items: center;
+}
+.Nav a {
+  color: #3b368c;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.down {
+  background: -webkit-linear-gradient(-30deg, #c165dd 0, #5c27fe 100%);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 7px 10px;
+  color: #fff;
+  border: 1px solid #665cb2;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  margin-left: 22px;
+}
+.down:hover {
+  background: #fff;
+  color: rgb(102, 105, 236) !important;
+}
+
+.Burger {
+  display: none;
+  grid-area: burger;
+  /* margin: 0 20px 0 0; */
+  margin: 13px -22px 0 0;
+  padding: 0;
+  justify-self: end;
+  font-size: 40px;
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.1s;
+}
+.Burger:active {
+  transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+  .Header {
+    grid-template-areas: "logo burger" "nav nav";
+  }
+  .Nav {
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: none;
+    grid-row-gap: 20px;
+
+    padding: 30px 0 30px;
+    background: rgba(234, 238, 241, 0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .Burger {
+    display: inline;
+  }
+}
+
+.NavAnimation-enter {
+  opacity: 0;
+  transform: scale(0.5);
+}
+.NavAnimation-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 350ms, transform 350ms;
+}
+.NavAnimation-exit {
+  opacity: 1;
+}
+.NavAnimation-exit-active {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 350ms, transform 350ms;
+}
+@media (min-width: 720px) and (max-width: 912px) {
+  .Nav a {
+    color: #3b368c;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .thecareersadsLogo {
+    height: 59px;
+  }
+  .thecareersadsLogo {
+    height: 69px;
+  }
+}
+@media (min-width: 540px) and (max-width: 720px) {
+  .thecareersadsLogo {
+    height: 69px;
+  }
+}
+
+.service a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown1 button {
+  background: none;
+  border: none;
+  color: #534e9a;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
+
+.service li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown1 {
+  background-color: rgb(240, 240, 240);
+  width: 180px;
+  padding: 0px;
+  margin: -4px;
+  position: absolute;
+  margin-top: 143px;
+  margin-right: 347px;
+}
+
+@media (min-width: 200px) and (max-width: 630px) {
+  .dropdown1 {
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+    padding: 0px;
+    margin: -4px;
+    position: absolute;
+    margin-top: -34px;
+    margin-right: -188px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 1040px) and (max-width: 2000px) {
+  .dropdown1 {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 0px;
+    margin: -4px;
+    position: absolute;
+    margin-top: 143px;
+    margin-right: 33%;
+    border-radius: 5px;
+  }
+}
+.submenu {
+  font-size: 15px !important;
+  text-align: center;
+}
+.service li:hover {
+  background: linear-gradient(to left, #33ccff 0%, #6699ff 100%);
+}
+.down {
+  color: #ffffff !important;
+}

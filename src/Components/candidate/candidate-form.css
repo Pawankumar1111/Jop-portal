@@ -1,0 +1,267 @@
+.form-logo {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 1%;
+}
+.form-section {
+  margin-left: 7%;
+  margin-top: 10%;
+}
+.input-form {
+  width: 30%;
+  height: 35px;
+  border-bottom: 2px solid rgb(52, 52, 117) !important;
+}
+.button {
+  margin-left: 1.5%;
+  width: 5%;
+  background-color: rgb(52, 52, 117);
+  color: white;
+  height: 35px;
+  border-bottom: none !important;
+}
+.message-input {
+  height: 87px;
+}
+.submit-button {
+  margin-left: 0px;
+  margin-top: 30px;
+  width: 10%;
+}
+
+.mobile-verification-block {
+  position: absolute;
+  margin-left: 36%;
+  margin-top: -66px;
+  font-size: 85%;
+}
+.mobile-verification-block h4 {
+  margin-left: 30px;
+  margin-top: -32px;
+  font-size: 85%;
+}
+
+.email-verification-block {
+  position: absolute;
+  margin-left: 36%;
+  margin-top: -66px;
+  font-size: 85%;
+}
+.email-verification-block h4 {
+  margin-left: 30px;
+  margin-top: -32px;
+  font-size: 85%;
+}
+.error {
+  color: red;
+
+  margin-top: 4px;
+}
+.form-section h1 {
+  font-size: 30px;
+}
+.side-img {
+  position: absolute;
+  margin-top: -34%;
+  margin-left: 53%;
+}
+.form-side-img {
+  width: 101%;
+  height: 61%;
+}
+.verified {
+  color: green;
+}
+.verified h4 {
+  color: green;
+}
+.notverified {
+  color: red;
+}
+.notverified h4 {
+  color: red;
+}
+
+.email-verification-block2 {
+  position: absolute;
+  margin-left: 36%;
+  margin-top: -38px;
+  font-size: 85%;
+}
+.email-verification-block2 h4 {
+  margin-left: 30px;
+  margin-top: -32px;
+  font-size: 85%;
+}
+@media (min-width: 200px) and (max-width: 360px) {
+  .side-img {
+    display: none;
+  }
+  .side-img {
+    display: none;
+  }
+  .notverified {
+    color: red;
+    margin-top: -13px;
+    margin-left: 20px;
+  }
+  .verified {
+    color: green;
+    margin-top: -17px;
+  }
+  .error {
+    color: red;
+    margin-top: 4px;
+    margin-left: 30px;
+  }
+  .form-section {
+    margin-left: 7%;
+    margin-top: 36%;
+  }
+
+  .button {
+    margin-left: 7.5%;
+    width: 22%;
+  }
+  .mobile-verification-block h4 {
+    margin-left: 30px;
+    margin-top: -26px;
+    font-size: 85%;
+  }
+  .email-verification-block2 h4 {
+    margin-left: 30px;
+    margin-top: -26px;
+    font-size: 85%;
+  }
+
+  .input-form {
+    width: 82%;
+    margin-left: 6%;
+  }
+}
+@media (min-width: 361px) and (max-width: 414px) {
+  .side-img {
+    display: none;
+  }
+  .notverified {
+    color: red;
+    margin-top: -13px;
+    margin-left: 20px;
+  }
+  .verified {
+    color: green;
+    margin-top: -17px;
+  }
+  .error {
+    color: red;
+    margin-top: 4px;
+    margin-left: 30px;
+  }
+  .form-section {
+    margin-left: 7%;
+    margin-top: 36%;
+  }
+
+  .button {
+    margin-left: 7.5%;
+    width: 22%;
+  }
+  .mobile-verification-block h4 {
+    margin-left: 30px;
+    margin-top: -26px;
+    font-size: 85%;
+  }
+  .email-verification-block2 h4 {
+    margin-left: 30px;
+    margin-top: -26px;
+    font-size: 85%;
+  }
+
+  .input-form {
+    width: 82%;
+    margin-left: 6%;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 912px) {
+  .button {
+    margin-left: 1.5%;
+    width: 9%;
+    background-color: rgb(52, 52, 117);
+    color: white;
+    height: 35px;
+    border-bottom: none !important;
+  }
+  .mobile-verification-block {
+    position: absolute;
+    margin-left: 39%;
+    margin-top: -83px;
+    font-size: 83%;
+  }
+  .email-verification-block2 {
+    position: absolute;
+    margin-left: 39%;
+    margin-top: -49px;
+    font-size: 83%;
+  }
+  .form-side-img {
+    width: 100%;
+    margin-left: 18px;
+  }
+}
+@media (min-width: 540px) and (max-width: 720px) {
+  .button {
+    margin-left: 1.5%;
+    width: 14%;
+    background-color: rgb(52, 52, 117);
+    color: white;
+    height: 35px;
+    border-bottom: none !important;
+  }
+  .mobile-verification-block {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -82px;
+    font-size: 85%;
+  }
+  .email-verification-block2 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -51px;
+    font-size: 85%;
+  }
+  .mobile-verification-block h4 {
+    margin-left: 30px;
+    margin-top: -25px;
+    font-size: 85%;
+  }
+  .email-verification-block2 h4 {
+    margin-left: 30px;
+    margin-top: -24px;
+    font-size: 85%;
+  }
+  .form-section h1 {
+    font-size: 30px;
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1080px) {
+  .button {
+    margin-left: 1.5%;
+    width: 7%;
+  }
+  .mobile-verification-block {
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -83px;
+  }
+  .form-side-img {
+    width: 95%;
+    margin-left: 20px;
+  }
+  .email-verification-block2 {
+    margin-left: 38%;
+    margin-top: -52px;
+  }
+}

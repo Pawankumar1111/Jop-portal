@@ -1,0 +1,217 @@
+button,
+select,
+input {
+  overflow: visible;
+  border: #fff;
+  border-bottom: 2px solid red;
+  margin-top: 20px;
+}
+.form-group {
+  margin-top: 47px;
+}
+.glass-panel {
+  color: #fff;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.glass-button {
+  display: inline-block;
+  padding: 15px 20px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  font-weight: bold;
+}
+
+.glass-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-group input.glass-input {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+.glass-modal {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 15px;
+  backdrop-filter: blur(10px) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.form_control {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border: 2px solid #e0e4ff;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #95a9b5;
+  transition: all 300ms ease;
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #cdcdcd;
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.8);
+  /* -webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 80%); */
+  box-shadow: inset 0 3px 5px rgb(0 0 0 / 80%);
+  border-radius: 10px;
+}
+.glass_modal {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 15px;
+  backdrop-filter: blur(10px) !important;
+
+  box-shadow: -5px -10px rgba(0, 0, 0, 0.175) !important;
+}
+.button-new {
+  background-image: linear-gradient(
+    to right,
+    #646464 0%,
+    #5e5d5d 51%,
+    #434343 100%
+  );
+  border: none;
+  color: white;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px 12px 12px 12px;
+}
+.header_sticky {
+  backdrop-filter: blur(30px) !important;
+  background: rgba(255, 255, 255, 15%) !important;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+.footer-section {
+  background-image: url("https://www.thecareerads.com/assets/images/footer/footer-bg.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.counter-section {
+  background-image: url("https://www.thecareerads.com/assets/images/banner/banner-bg-4.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.how-main-bg {
+  background-image: url("https://www.thecareerads.com/assets/images/bg2.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.coverage-wrapper {
+  background-image: url("https://www.thecareerads.com/assets/images/bg/world-map.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.custom-plan {
+  background-image: url("https://www.thecareerads.com/assets/images/bg/line-bg.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.page-header {
+  background-image: url("https://www.thecareerads.com/assets/images/banner/banner-bg-7.jpg");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+.comunity-bg {
+  background-image: url("https://www.thecareerads.com/assets/images/client/mosto-client.jpg");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+
+.pro-result {
+  margin-top: 30px;
+  align-items: center;
+}
+.pro-result .pagination-style:last-child {
+  text-align: right;
+}
+.pagination-style .pagination ul {
+  padding-left: 0;
+  margin-bottom: 55px;
+  display: flex;
+  margin-top: -33px;
+}
+.pagination-style .pagination ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+.pagination-style .pagination ul li button {
+  color: #000;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.pagination-style .pagination ul li button.active,
+.pagination-style .pagination ul li button:hover {
+  background-color: #13b5ea;
+  border: 1px solid #13b5ea;
+  color: #fff !important;
+}
+
+.pagination-style .show-result p {
+  margin-bottom: 0px;
+  color: #bbb;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.faq-menu {
+  background-image: url("https://thecareerads.com/assets/images/faq/faq-menu.png");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+
+.glass-modal:hover {
+  color: darkblue !important;
+}
+.title1 {
+  color: #f1047e;
+}

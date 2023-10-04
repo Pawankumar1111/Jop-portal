@@ -1,0 +1,233 @@
+.img-card-top {
+  width: 38% !important;
+  height: 100px !important;
+  border-radius: 4rem;
+  margin-left: 2rem;
+}
+.ApplicantName {
+  margin-top: 1rem !important;
+  width: 68%;
+  text-align: center;
+}
+.CircularProgressbar-text {
+  font-size: 20px !important;
+}
+.showbtn {
+  width: 9% !important;
+  height: 52px !important;
+  margin-top: 50px;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  color: rgb(57, 57, 182);
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid #4eb33adb;
+}
+
+.showbtn:hover {
+  background-color: rgba(4, 197, 231, 0.034);
+}
+h6 {
+  font-size: 16px;
+}
+.maincardbox {
+  display: flex;
+  cursor: pointer;
+}
+.maincardbox1 {
+  width: 30%;
+}
+.profile {
+  display: block;
+  margin-left: -3rem;
+}
+.experience {
+  margin-top: 2rem;
+}
+.Location {
+  display: block;
+  margin-left: 3rem;
+}
+.contact {
+  margin-top: 2rem;
+}
+.email {
+  font-size: 0.9rem;
+  width: 100%;
+
+  margin-top: 3px;
+}
+.emailh6 {
+  font-size: 0.9rem;
+  width: 100%;
+  height: 20px;
+  margin-top: 3px;
+}
+.expandbox {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.expandbox1 {
+  width: 13%;
+  margin-left: 36px;
+}
+.profilematch {
+  margin-top: 1rem;
+  text-align: center;
+}
+.workexperience {
+  margin-left: 3.5rem;
+}
+.EduDeatails {
+  margin-left: 8rem;
+}
+
+@media (min-width: 376px) and (max-width: 600px) {
+  .maincardbox {
+    display: block;
+    cursor: pointer;
+  }
+  .expandbox {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .img-card-top {
+    width: 200% !important;
+    height: 150px !important;
+    border-radius: 4rem;
+    margin-left: 2.5rem;
+  }
+  .ApplicantName {
+    margin-top: 1rem !important;
+    width: 15rem;
+    text-align: center;
+  }
+  .profile {
+    display: block;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .profile {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .contact {
+    margin-top: 1rem;
+    text-align: center;
+    width: 104%;
+    margin-left: -3rem;
+  }
+  .Location {
+    display: block;
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+  }
+  .showbtn {
+    width: 73% !important;
+    height: 52px !important;
+    margin-left: 1.5rem;
+  }
+
+  .expandbox {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .expandbox1 {
+    width: 71%;
+  }
+  .workexperience {
+    margin-left: 3.5rem;
+    text-align: center;
+  }
+  .workexperience {
+    margin-left: -0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .EduDeatails {
+    margin-left: 0rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .cardBod {
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 600px) {
+  .maincardbox {
+    display: block;
+    cursor: pointer;
+  }
+  .expandbox {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .img-card-top {
+    width: 200% !important;
+    height: 150px !important;
+    border-radius: 4rem;
+    margin-left: 2.5rem;
+  }
+  .ApplicantName {
+    margin-top: 1rem !important;
+    width: 15rem;
+    text-align: center;
+  }
+  .profile {
+    display: block;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .profile {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .contact {
+    margin-top: 1rem;
+    text-align: center;
+    width: 104%;
+    margin-left: -3rem;
+  }
+  .Location {
+    display: block;
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+  }
+  .showbtn {
+    width: 73% !important;
+    height: 52px !important;
+    margin-left: 1.5rem;
+  }
+
+  .expandbox {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .expandbox1 {
+    width: 71%;
+  }
+  .workexperience {
+    margin-left: 3.5rem;
+    text-align: center;
+  }
+  .workexperience {
+    margin-left: -0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .EduDeatails {
+    margin-left: 0rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .cardBod {
+    margin-left: 0 !important;
+  }
+}

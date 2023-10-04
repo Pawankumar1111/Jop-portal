@@ -1,0 +1,264 @@
+.pnavbar {
+  margin-top: 8rem;
+  background-color: #237db4 !important;
+  border-radius: 0 !important;
+}
+.pForm {
+  display: flex;
+}
+.pSearch1 {
+  border-radius: 10px;
+}
+.pSearch2 {
+  border-radius: 10rem;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .pForm {
+    display: block;
+  }
+}
+.navbar-toggler {
+  width: 20%;
+}
+
+.Newjobs {
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 17px;
+  margin-bottom: 2%;
+}
+.JobStatus {
+  margin-top: -22px;
+  margin-left: 3%;
+  color: black !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cardBod {
+  margin-left: 5%;
+}
+
+.PostJobform {
+  display: flex;
+}
+
+.dd-wrapper {
+  font-size: 20px !important;
+}
+.dd-list-item {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.pSearch1 {
+  margin-left: 48%;
+  width: 40%;
+  margin-top: 5%;
+}
+.form-label1 {
+  margin-top: 29px;
+  margin-left: 15%;
+  position: absolute;
+}
+.form-label2 {
+  margin-top: 0px;
+  margin-left: 16%;
+  position: absolute;
+}
+
+.jobtype1 {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 107px;
+  font-size: 15px;
+}
+.jobtype2 {
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 107px;
+
+  font-size: 15px;
+}
+hr.solid {
+  border-top: 2px solid rgb(176, 176, 223);
+}
+
+/* .form-check-input {
+  width: 17px !important;
+  margin-left: -33px !important;
+  margin-top: 0px !important;
+  margin-left: 50%;
+} */
+.checkbox1 {
+  margin-left: 50%;
+  display: grid;
+}
+.radiocheckbtn {
+  width: 20px;
+}
+
+.label11 {
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 6px;
+}
+
+.label12 {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.label3 {
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 73px;
+}
+.label4 {
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 107px;
+}
+
+.label5 {
+  position: absolute;
+  margin-left: 36px;
+  margin-top: 144px;
+}
+.css-2613qy-menu {
+  width: 50% !important;
+}
+.country {
+  width: 40% !important;
+  margin-left: 48% !important;
+  margin-top: 5% !important;
+}
+.qualification {
+  margin-left: 48%;
+}
+.dd-wrapper {
+  width: 88% !important;
+}
+.dd-list.searchable {
+  width: 88% !important;
+  overflow: hidden;
+}
+.dd-list {
+  width: 88% !important;
+}
+.dd-list-item:hover {
+  background-color: #91acf6 !important;
+  color: rgb(255, 255, 255) !important;
+}
+@media (min-width: 360px) and (max-width: 375px) {
+  .pSearch1 {
+    margin-top: 20%;
+    width: 100%;
+    margin-left: -5px;
+  }
+  .form-label1 {
+    margin-top: 1px;
+    margin-left: 34%;
+  }
+  .jobtype1 {
+    margin-left: 39px !important;
+  }
+  .country {
+    width: 100% !important;
+    margin-left: -2% !important;
+    margin-top: 5% !important;
+  }
+  .jobtype2 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 31px;
+    font-size: 15px;
+  }
+  .checkbox1 {
+    margin-left: 22%;
+    display: grid;
+    margin-top: 54px;
+  }
+  .form-label2 {
+    margin-top: 20px;
+    margin-left: 38%;
+    position: absolute;
+  }
+  .skill {
+    margin-left: 42%;
+  }
+  .Hiring {
+    margin-left: 26%;
+  }
+  .Newjobs {
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 17px;
+    margin-bottom: 2%;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+  .pSearch1 {
+    margin-top: 20%;
+    width: 100%;
+    margin-left: -5px;
+  }
+  .form-label1 {
+    margin-top: 1px;
+    margin-left: 34%;
+  }
+  .jobtype1 {
+    margin-left: 4rem !important;
+  }
+  .country {
+    width: 100% !important;
+    margin-left: -2% !important;
+    margin-top: 5% !important;
+  }
+  .jobtype2 {
+    position: absolute;
+    margin-top: 15%;
+
+    margin-left: 4rem;
+
+    font-size: 15px;
+  }
+  .checkbox1 {
+    margin-left: 22%;
+    display: grid;
+    margin-top: 54px;
+  }
+  .form-label2 {
+    margin-top: 20px;
+    margin-left: 38%;
+    position: absolute;
+  }
+  .skill {
+    margin-left: 42%;
+  }
+  .Hiring {
+    margin-left: 26%;
+  }
+  .Newjobs {
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 17px;
+    margin-bottom: 2%;
+  }
+}
+.sc-bdvvtL input {
+  width: 5% !important;
+  margin-top: 2%;
+}
+.sc-bdvvtL input::target-text {
+  width: 5% !important;
+  margin-top: 2%;
+}
+.gvSTNP {
+  padding: 0 !important;
+}

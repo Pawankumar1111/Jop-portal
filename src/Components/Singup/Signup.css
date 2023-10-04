@@ -1,0 +1,542 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(212, 108, 221);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(63, 101, 204);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d06cdd;
+}
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .formdiv {
+    margin-left: 11%;
+    margin-top: -70px;
+  }
+}
+
+input {
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin: 5px;
+  margin-bottom: 0px;
+  padding: 5px 10px;
+  height: 17px;
+}
+
+.btnsub {
+  height: 30px;
+
+  border-radius: 10px;
+  border: none;
+  width: 20%;
+  margin-left: 30%;
+  background-color: rgb(111, 170, 247);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+  margin-top: 102rem;
+  margin-right: 19%;
+  margin-left: -27%;
+  margin-bottom: 10%;
+}
+
+button:hover {
+  background-color: rgb(128, 181, 250);
+}
+
+.error {
+  color: tomato;
+  margin-bottom: 8px;
+  height: 8px;
+  font-size: 13px;
+}
+.signupform:hover {
+  border: 1px dotted blue !important;
+}
+.signupform {
+  margin-left: 21%;
+  position: relative;
+  width: 63%;
+  height: 450px;
+
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.label {
+  color: blue !important;
+  margin-left: 7px;
+  margin-bottom: 0px;
+}
+@media (min-width: 200px) and (max-width: 320px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 468px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 495%;
+    margin-right: 45%;
+    margin-left: -48%;
+  }
+  .pleasesignup {
+    margin-left: 27% !important;
+    margin-top: 34% !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 360px) and (max-width: 375px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 468px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 506%;
+    margin-right: 45%;
+    margin-left: -48%;
+  }
+  .pleasesignup {
+    margin-left: 27% !important;
+    margin-top: 34% !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 412px) and (max-width: 414px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 468px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 506%;
+    margin-right: 45%;
+    margin-left: -48%;
+  }
+  .pleasesignup {
+    margin-left: 27% !important;
+    margin-top: 34% !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 360px) and (max-width: 374px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 30rem;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 506%;
+    margin-right: 45%;
+    margin-left: -48%;
+  }
+  .pleasesignup {
+    margin-left: 27% !important;
+    margin-top: 34% !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 376px) and (max-width: 411px) {
+  .signupform {
+    margin-left: 6%;
+    position: relative;
+    width: 88%;
+    height: 33rem;
+
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 87rem;
+    margin-right: 45%;
+    margin-left: -48%;
+  }
+  .formdiv {
+    margin-left: 11%;
+    margin-top: -11rem;
+  }
+  .pleasesignup {
+    margin-left: 27% !important;
+    margin-top: 25% !important;
+    margin-bottom: 5%;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 412px) and (max-width: 500px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 34rem;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 86rem;
+    margin-right: 8rem;
+    margin-left: -11rem;
+  }
+
+  .pleasesignup {
+    margin-left: 7rem !important;
+    margin-top: 7rem !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .formdiv {
+    margin-left: 11%;
+    height: 17rem !important;
+    margin-top: -14rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 530px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 347px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 101rem;
+    margin-right: 11rem;
+    margin-left: -13rem;
+  }
+
+  .pleasesignup {
+    margin-left: 10rem !important;
+    margin-top: 7rem !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .formdiv {
+    margin-left: 11%;
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 530px) and (max-width: 600px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 347px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 101rem;
+    margin-right: 11rem;
+    margin-left: -13rem;
+  }
+
+  .pleasesignup {
+    margin-left: 11rem !important;
+    margin-top: 7rem !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .formdiv {
+    margin-left: 11%;
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+  .signupform {
+    margin-top: 6%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 347px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 101rem;
+    margin-right: 11rem;
+    margin-left: -13rem;
+  }
+
+  .pleasesignup {
+    margin-left: 14rem !important;
+    margin-top: 7rem !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .formdiv {
+    margin-left: 11%;
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 720px) and (max-width: 1000px) {
+  .signupform {
+    margin-top: 0%;
+    margin-left: 4%;
+    position: relative;
+    width: 93%;
+    height: 347px;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 105rem;
+    margin-right: 11rem;
+    margin-left: -14rem;
+  }
+
+  .pleasesignup {
+    margin-left: 40% !important;
+    margin-top: 7rem !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .formdiv {
+    margin-left: 11%;
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .signupform {
+    margin-top: 0%;
+    margin-left: 19%;
+    position: relative;
+    width: 71%;
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .btnsub {
+    margin-top: 102rem;
+    margin-right: 11rem;
+    margin-left: -14rem;
+  }
+
+  .pleasesignup {
+    margin-left: 40% !important;
+    margin-top: 7rem !important;
+  }
+  .label {
+    color: blue !important;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .formdiv {
+    margin-left: 11%;
+    margin-top: 0rem;
+  }
+}
+.pleasesignup {
+  margin-left: 42%;
+
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+.formdiv input {
+  width: 100%;
+  border: 0;
+  padding: 10px 10px;
+  border: 2px solid #6c95ee;
+}
+
+.formdiv input ~ .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+}
+
+.formdiv input:focus ~ .border {
+  width: 100%;
+  transition: 0.5s;
+}
+.formdiv {
+  height: 400px;
+  margin-left: 2rem;
+}

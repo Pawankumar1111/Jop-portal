@@ -1,0 +1,60 @@
+.BtnRegister:hover {
+  background-color: #fff;
+}
+.BtnRegister:hover .AnRegister {
+  color: blueviolet;
+}
+.AnRegister {
+  color: #fff;
+  width: 92%;
+  margin-right: 16px;
+}
+.BtnRegister {
+  background-color: blueviolet;
+}
+.BtnRegister:hover {
+  background-color: rgb(252, 251, 253);
+  color: blueviolet;
+}
+@media (min-width: 200px) and (max-width: 414px) {
+  .AnRegister {
+    color: #fff;
+    width: 90%;
+    margin-right: 16px;
+  }
+}
+.orbtn {
+  margin-left: 46%;
+  margin-top: 4%;
+}
+.Googlebtn {
+  border: 3px solid blue !important;
+  color: black !important;
+  margin-left: 5px;
+}
+.Googlebtn :hover {
+  background-color: rgb(241, 241, 241) !important;
+  color: blue;
+}
+.btn1 {
+  width: 100%;
+  margin-left: 4px;
+}
+
+.Signupinfo {
+  margin-top: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.Signupinfotitle {
+  margin-bottom: 17%;
+  text-align: center;
+}
+.Signupinfobtn {
+  width: 119%;
+}
+
+.modal-body {
+  overflow-y: scroll;
+  height: 22rem;
+}
